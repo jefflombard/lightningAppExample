@@ -1,0 +1,18 @@
+<aura:component controller="demoApexController">
+
+    	<!-- Sample Component -->
+
+    	<!-- Attributes -->
+    	<aura:attribute name="demoAttribute" type="String" />
+    	<aura:attribute name="demoAttribute2" type="String" />
+
+    	<!-- Markup -->
+        <div class="slds-show">
+            <h1>Hello World</h1>
+            <p>This button sets demoAttribute2 to demoAttribute</p>
+            <button class="slds-button slds-button--brand slds-m-left--small" onclick="{!c.demoController}">Button Action</button>
+        </div>
+        
+
+
+</aura:component>
